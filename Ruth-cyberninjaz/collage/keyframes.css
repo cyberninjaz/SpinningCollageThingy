@@ -1,0 +1,175 @@
+@keyframes shrink8 {
+    0% {
+        transform: scale(1) rotate(350deg);
+    }
+    25%{
+        transform: scale(0.5) rotate(710deg);
+    }
+    50% {
+        transform: scale(0.25) rotate(350deg);
+    }
+    75%{
+        transform: scale(0.5) rotate(710deg);
+    }
+    100% {
+        transform: scale(1) rotate(350deg);
+    }
+}
+@keyframes slide8 {
+    0% {
+        transform: rotate(350deg);
+        top:113px;
+        left:1013px;
+    }
+    75% {
+        transform: rotate(0deg);
+        top: 113px;
+        left: 0px;
+    }
+    100% {
+        transform: rotate(0deg);
+        top: 0px;
+        left: 300px;
+    }
+}
+
+
+
+@keyframes shrink9 {
+    0% {
+        transform: scale(1) rotate(10deg);
+    }
+    25%{
+         transform: scale(0.5) rotate(370deg);
+    }
+    50% {
+        transform: scale(0.25) rotate(10deg);
+    }
+    75%{
+        transform:scale(0.5) rotate(370deg);
+    }
+    100% {
+        transform: scale(1) rotate(10deg);
+    }
+}
+@keyframes slide9 {
+    0% {
+        transform: rotate(350deg);
+        top:115px;
+        left:5px;
+    }
+    100% {
+        transform: rotate(0deg);
+        top:185px;
+        left:300px;
+        }
+                }
+
+@keyframes shrink10 {
+    0% {
+        transform: scale(1) rotate(25deg);
+    }
+    25%{
+        transform: scale(0.5) rotate(385deg);
+    }
+    50% {
+        transform: scale(0.25) rotate(25deg);
+    }
+    75%{
+        transform:scale(0.5) rotate(385deg);
+    }
+    100% {
+        transform: scale(1) rotate(25deg);
+    }
+                   }
+@keyframes slide10 {
+    0% {
+        transform: rotate(25deg);
+        top:468;
+        left:935;
+    }
+    100%{
+transform: rotate(25deg);
+top:75;
+left:545;
+        }
+                }
+@keyframes shrink11 {
+    0% {
+        transform: scale(1) rotate(338deg);
+    }
+    25%{
+        transform: scale(0.5) rotate(698deg)
+    }
+    50% {
+        transform: scale(0.25) rotate(338deg);
+    }
+    75%{
+        transform:scale(0.5) rotate(698deg)
+    }
+    100% {
+        transform: scale(1) rotate(338deg);
+         }
+                   }
+@keyframes slide11 {
+    0% {
+        transform: rotate(338deg);
+        top:470;
+        left:-60;
+    }
+    100% {
+       transform:rotate(338deg);
+       left:545;
+       top:200
+    }
+}
+@keyframes slide3 {
+    0% {
+        transform:rotate(0deg);
+        top:390; 
+        left:515;
+    }
+    100% {
+        transform:rotate(0deg);
+        top:350;
+        left:300;
+    }
+}
+@keyframes slide4 {
+    0% {
+        transform: rotate(15deg);
+        top:100;
+        left:697;
+    }
+    100% {
+      transform: rotate(0deg);
+      top:530;
+      left:300;
+    }
+}
+@keyframes slide5 {
+    0% {
+        transform: rotate(345deg);
+        top:100;
+        left:320;
+    }
+    100% {
+        transform: rotate(0deg);
+        top:350;
+        left:525;
+    }
+}
+@keyframes slide1 {
+    0% {
+        transform:rotate(25deg);
+        top:340;
+        left:290;
+        
+    }
+    100% {
+        transform:rotate(0deg);
+        top: 0;
+        left:0;
+    }
+}
+ 

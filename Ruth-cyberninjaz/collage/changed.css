@@ -1,0 +1,65 @@
+
+
+img.changed:nth-of-type(1){
+    transform:rotate(1825deg);
+    animation: slide1 2s ease 17s 2 normal forwards;
+}
+
+
+img.changed:nth-of-type(2){
+    transform:rotate(2138deg)
+}
+
+
+img.changed:nth-of-type(3){
+    transform:rotate(1800deg);
+    animation: slide3 2s ease 13s 1 normal forwards;
+}
+
+
+img.changed:nth-of-type(4){
+    transform:rotate(1455deg);
+    animation: slide4 2s ease 14s 1 normal forwards;
+}
+
+
+img.changed:nth-of-type(5) {
+    transform: rotate(1785deg);
+    animation: slide5 2s ease 16s 1 normal forwards;
+}
+
+
+img.changed:nth-of-type(6) {
+    transform:rotate(1440deg);
+    animation: slide6 2s ease 17s 1 normal forwards;
+}
+
+
+img.changed:nth-of-type(7) {
+    transform:rotate(1080deg);
+    animation: slide7 2s ease 17s 1 normal forwards;
+}
+
+img.changed:nth-of-type(8)
+{
+    animation: shrink8 5s ease 6s,
+               slide8 2s ease 11s 1 normal forwards;
+}
+
+img.changed:nth-of-type(9)
+{
+    animation: shrink9 5s ease 6s 1,
+            slide9 2s ease 12s 1 normal forwards;
+}
+
+img.changed:nth-of-type(10)
+{
+    animation: shrink10 5s ease 6s 1,
+            slide10 2s ease 15s 1 normal forwards;   
+}
+
+img.changed:nth-of-type(11)
+{
+    animation: shrink11 5s ease 6s 1,
+            slide11 2s ease 15s 1 normal forwards;
+}

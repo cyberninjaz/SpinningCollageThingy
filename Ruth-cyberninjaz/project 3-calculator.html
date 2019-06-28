@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <script>
+            function subtracting(){
+                let me=document.getElementById("num1")
+                let you=document.getElementById("num2")
+                let answer=document.getElementById("answer1")
+                answer.innerHTML=parseFloat(me.value) - parseFloat(you.value);
+            }
+
+            function adding(){
+                let me=document.getElementById("num3")
+                let you=document.getElementById("num4")
+                let answer=document.getElementById("answer2")
+                answer.innerHTML=parseFloat(me.value) + parseFloat(you.value);
+            }
+                
+            function multiplication(){
+                let me=document.getElementById("num5")
+                let you=document.getElementById("num6")
+                let answer=document.getElementById("answer3")
+                answer.innerHTML=parseFloat(me.value) * parseFloat(you.value);
+            }
+
+            function division(){
+                let me=document.getElementById("num7")
+                let you=document.getElementById("num8")
+                let answer=document.getElementById("answer4")
+                answer.innerHTML=parseFloat(me.value) / parseFloat(you.value);
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="num1">
+        -
+        <input type="text" id="num2">
+        <button onclick="subtracting()">=</button>
+        <div id="answer1"></div>
+
+
+        <input type="text" id="num3">
+        +
+        <input type="text" id="num4">
+        <button onclick="adding()">=</button>
+        <div id="answer2"></div>
+
+
+
+        <input type="text" id="num5">
+        *
+        <input type="text" id="num6">
+        <button onclick="multiplication()">=</button>
+        <div id="answer3"></div>
+
+
+        <input type="text" id="num7">
+        /
+        <input type="text" id="num8">
+        <button onclick="division()">=</button>
+        <div id="answer4"></div>
+    </body>
+</html>
+
